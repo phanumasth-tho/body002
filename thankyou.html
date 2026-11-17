@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ขอบคุณที่สั่งซื้อ — Body Scent</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Sarabun:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .thanks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 76px);
+      min-height: calc(100svh - 76px);
+      padding-block: var(--space-6);
+      text-align: center;
+    }
+
+    .thanks .lead {
+      margin-inline: auto;
+      margin-bottom: var(--space-4);
+    }
+
+    @media (max-width: 640px) {
+      .thanks {
+        min-height: calc(100svh - 110px);
+        padding-block: var(--space-5);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="brand">Body Scent</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="thanks">
+    <div class="container">
+      <span class="eyebrow">Thank You</span>
+      <h1>ขอบคุณที่สั่งซื้อ</h1>
+      <hr class="divider">
+      <p class="lead">เราได้รับคำสั่งซื้อของคุณแล้ว และจะติดต่อกลับเพื่อยืนยันโดยเร็วที่สุด</p>
+      <a href="index.html" class="btn">กลับหน้าแรก</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="index.html" class="brand">Body Scent</a>
+      <p>Feel Good. Smell Good. Be You.</p>
+      <p>&copy; 2026 Body Scent. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
